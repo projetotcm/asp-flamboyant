@@ -1,0 +1,54 @@
+﻿@model Flamboyant.Models.ModelCardapio
+
+@{
+    ViewBag.Title = "Detalhe do Produto";
+}
+
+<h2>Detalhe do Produto</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Produto</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NomeCardapio)
+            @Html.DisplayFor(model => model.NomeCardapio)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DesCardapio)
+            @Html.DisplayFor(model => model.DesCardapio)
+
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.VlCardapio)
+            @Html.DisplayFor(model => model.VlCardapio)
+
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FotoCardapio)
+            @Html.DisplayFor(model => model.FotoCardapio)
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Salvar" class="btn btn-danger" />
+            </div>
+        </div>
+    </div>
+}
+<div>
+    @Html.ActionLink("Voltar", "Index", "Cardapio")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+

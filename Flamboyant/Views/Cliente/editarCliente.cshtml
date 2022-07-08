@@ -1,0 +1,132 @@
+﻿@model Flamboyant.Models.ModelCliente
+@{
+    ViewBag.Title = "Editar Cliente";
+}
+<style>
+    .tudo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5em;
+    }
+
+    input[type=text], input[type=password] {
+        background: transparent;
+        border-width: 0pt;
+        border-bottom-width: 2pt;
+        border-image-slice: 1;
+        border-image-source: var(--linear-red);
+        padding: 2px 5px;
+        position: absolute;
+        outline: none;
+    }
+
+    label {
+        position: absolute;
+    }
+</style>
+<style>
+    .tudo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5em;
+    }
+
+    input[type=text], input[type=password] {
+        background: transparent;
+        border-width: 0pt;
+        border-bottom-width: 2pt;
+        border-image-slice: 1;
+        border-image-source: var(--linear-red);
+        padding: 2px 5px;
+        position: absolute;
+        outline: none;
+    }
+
+    label {
+        position: absolute;
+    }
+</style>
+
+<h2 style="text-align:center;">Alterar Cliente</h2>
+<br />
+<br />
+<div class="tudo">
+    <div class="forms">
+
+        @using (Html.BeginForm("editarCliente", "Cliente", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.LabelFor(m => m.ClienteNome)
+            <br />
+            @Html.EditorFor(m => m.ClienteNome)
+            <br />
+            <br />
+            <br />
+
+            @Html.LabelFor(m => m.ClienteTel)
+            <br />
+            @Html.EditorFor(m => m.ClienteTel)
+            <br />
+            <br />
+            <br />
+
+            @Html.LabelFor(m => m.ClienteCep)
+            <br />
+            @Html.EditorFor(m => m.ClienteCep)
+            <br />
+            <br />
+            <br />
+
+            @Html.LabelFor(m => m.ClienteEmail)
+            <br />
+            @Html.EditorFor(m => m.ClienteEmail)
+            <br />
+            <br />
+            <br />
+
+            @Html.LabelFor(m => m.ClienteEndereco)
+            <br />
+            @Html.EditorFor(m => m.ClienteEndereco)
+            <br />
+            <br />
+            <br />
+
+
+            @Html.LabelFor(m => m.usuario)
+            <br />
+            @Html.EditorFor(m => m.usuario)
+            <br />
+            <br />
+            <br />
+
+
+            @Html.LabelFor(m => m.senha)
+            <br />
+            @Html.EditorFor(m => m.senha)
+            <br />
+            <br />
+            <br />
+
+            <div class="form-group center">
+                <div class="col-md-10">
+                    @ViewBag.msg <br />
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" value="Salvar Mudanças" class="btn-green" style="padding: 8px; inline-size: max-content;" />
+                &nbsp;&nbsp;
+                @Html.ActionLink("Voltar", "ListarCliente", "Cliente", null, new { @class = "btn-red", @style = "padding: 8px; inline-size: max-content;" })
+            </div>
+        }
+    </div>
+</div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }

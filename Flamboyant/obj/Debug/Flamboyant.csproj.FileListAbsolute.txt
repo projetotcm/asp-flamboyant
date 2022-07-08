@@ -1,0 +1,295 @@
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Flamboyant.dll.config
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Flamboyant.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Flamboyant.pdb
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csc.exe
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csc.exe.config
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csc.rsp
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csi.exe
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csi.exe.config
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csi.rsp
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.AppContext.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Console.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Net.Http.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Net.Sockets.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\vbc.exe.config
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\vbc.rsp
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\WebGrease.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.xml
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\obj\Debug\Flamboyant.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\obj\Debug\Flamboyant.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\obj\Debug\Flamboyant.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\obj\Debug\Flamboyant.pdb
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\MySql.Data.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Google.Protobuf.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Zstandard.Net.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Ubiety.Dns.Core.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Memory.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Buffers.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\K4os.Compression.LZ4.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\K4os.Hash.xxHash.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\MySql.Data.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Flamboyant.dll.config
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Flamboyant.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Flamboyant.pdb
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csc.exe
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csc.exe.config
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csc.rsp
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csi.exe
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csi.exe.config
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\csi.rsp
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.AppContext.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Console.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.IO.Compression.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Net.Http.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Net.Sockets.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.ValueTuple.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Xml.XPath.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\vbc.exe
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\vbc.exe.config
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\vbc.rsp
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\VBCSCompiler.exe
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Antlr3.Runtime.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\MySql.Data.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Newtonsoft.Json.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Helpers.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Mvc.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Optimization.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Razor.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.Deployment.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.Razor.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\WebGrease.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Google.Protobuf.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Zstandard.Net.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\BouncyCastle.Crypto.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Ubiety.Dns.Core.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Memory.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Buffers.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\K4os.Compression.LZ4.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\K4os.Hash.xxHash.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Numerics.Vectors.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\MySql.Data.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Helpers.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Mvc.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Optimization.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.Razor.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.Deployment.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\System.Web.WebPages.Razor.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Newtonsoft.Json.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Antlr3.Runtime.pdb
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\obj\Debug\Flamboyant.csproj.AssemblyReference.cache
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\obj\Debug\Flamboyant.csproj.CoreCompileInputs.cache
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\obj\Debug\Flamboyant.csproj.CopyComplete
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\obj\Debug\Flamboyant.dll
+C:\Users\roney\Desktop\TCC_ASP ORIGINAL\Flamboyant\Flamboyant\obj\Debug\Flamboyant.pdb
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Flamboyant.dll.config
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Flamboyant.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Flamboyant.pdb
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\csc.exe
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\csc.exe.config
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\csc.rsp
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\csi.exe
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\csi.exe.config
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\csi.rsp
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.AppContext.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Console.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Net.Http.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Net.Sockets.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\vbc.exe.config
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\vbc.rsp
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\MySql.Data.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.WebPages.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\WebGrease.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Google.Protobuf.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Zstandard.Net.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Ubiety.Dns.Core.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Memory.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Buffers.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\K4os.Compression.LZ4.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\K4os.Hash.xxHash.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\MySql.Data.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.WebPages.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\obj\Debug\Flamboyant.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\obj\Debug\Flamboyant.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\obj\Debug\Flamboyant.dll
+C:\Users\user\Desktop\TCC ASP Quase Pronto\Flamboyant\Flamboyant\obj\Debug\Flamboyant.pdb

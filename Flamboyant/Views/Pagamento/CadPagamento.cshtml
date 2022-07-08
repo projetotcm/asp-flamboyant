@@ -1,0 +1,46 @@
+﻿@model Flamboyant.Models.ModelPagamento
+@{
+    ViewBag.Title = "Realizar Pagamento";
+}
+
+<h2 class="text-center">Finalizar Pagamento 🤝🏻</h2>
+
+@using (Html.BeginForm("ConfCadPagamento", "Pagamento", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary()
+    <br />
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Cliente</th>
+                <th scope="col">Endereço de entrega</th>
+                <th scope="col">Data do pedido</th>
+                <th scope="col">Hora do pedido</th>
+                <th scope="col">Valor total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-active">
+                <th scope="row">@ViewBag.nome</th>
+                <td>@ViewBag.endereco</td>
+                <td>@ViewBag.data</td>
+                <td>@ViewBag.hora</td>
+                <td>@ViewBag.total</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="editor-label">
+        @Html.LabelFor(m => m.CodEspecialidade)
+    </div>
+    <div class="editor-field">
+
+        @Html.DropDownList("FormaPagamento", "Escolha a Forma de pagamento")
+    </div>
+    <br />
+    <br />
+    <div class="justify-content-center d-flex">
+        <input type="submit" value="Pagar" class="btn btn-green" style="inline-size:max-content;" />
+        &nbsp;&nbsp;
+        @Html.ActionLink("Voltar", "Carrinho", "Venda", null, new { @class = "btn btn-red", @style = "inline-size: max-content;" })
+    </div>
+}

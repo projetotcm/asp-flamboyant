@@ -1,0 +1,201 @@
+﻿@model Flamboyant.Models.ModelCliente
+@{
+    ViewBag.Title = "CadCliente";
+}
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+
+        .main-login {
+            width: 100%;
+            height: 850px;
+            background: #FFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left-login {
+            width: 50%;
+            height: 200%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        .left-login-image {
+            width: 100%;
+            height: 750px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right-login {
+            width: 50%;
+            height: 200%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card-login {
+            width: 60%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 30px 35px;
+            background: #FFF;
+            border-radius: 25px;
+        }
+
+
+            .card-login .input-data {
+                height: 40px;
+                width: 100%;
+                position: relative;
+            }
+
+                .card-login .input-data input {
+                    height: 100%;
+                    width: 100%;
+                    border: none;
+                    font-size: 17px;
+                    background: none;
+                    color: #000;
+                    border-bottom: 2px solid transparent;
+                    border-image: linear-gradient(0.25turn,green, green, green, white);
+                    border-image-slice: 1;
+                }
+
+        .input-data input:focus ~ label,
+        .input-data input:valid ~ label {
+            transform: translateY(-20px);
+            font-size: 15px;
+            color: #000;
+        }
+
+        .card-login .input-data label {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            color: #000;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+
+   
+
+
+
+
+
+
+
+        :root {
+            --linear-green: linear-gradient(to right, #183B1B,#2A672F, #478F4D);
+            --linear-red: linear-gradient(to right,#98140F, #BA615D, #CB8987 );
+        }
+
+
+
+        .btn-login {
+            background-color: var(--linear-green);
+        }
+
+        .btn-voltar {
+            background: linear-gradient(270deg, #CC8A87 -8.7%, #B14D4A 9.64%, #98140F 58.72%);
+            border-radius: 42px;
+            border: none;
+            padding: 0px 20px;
+            font-family: Poppins;
+            color: #FFF;
+        }
+
+        .btn-cadastrar {
+            background: linear-gradient(270deg, #478F4D -8.7%, #2A672F 9.64%, #183B1B 58.72%);
+            border-radius: 42px;
+        }
+
+        .btn-cadastrar:hover {
+            background: linear-gradient(90deg, #478F4D -8.7%, #2A672F 9.64%, #183B1B 58.72%);
+            border-radius: 42px;
+            transition: .3s ease-in;
+        }
+    </style>
+
+<section>
+
+    @using (Html.BeginForm("CadCliente", "Cliente", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <br />
+        <div class="main-login">
+            <div class="left-login">
+                <img src="~/img/img login 2 2.png" class="left-login-image" alt="Prato">
+            </div>
+                <div class="right-login">
+                    <div class="card-login">
+                        <h2>Cadastro</h2>
+                        <br />
+                        <br />
+                        <div class="input-data">
+                            <input type="text" required name="ClienteNome" />
+                            <label for="ClienteNome">Nome</label>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="input-data">
+                            <input type="text" required name="ClienteTel" />
+                            <label for="ClienteTel">Telefone</label>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="input-data">
+                            <input type="text" required name="ClienteCep" />
+                            <label for="ClienteCep">Cep</label>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="input-data">
+                            <input type="text" required name="ClienteEmail" />
+                            <label for="ClienteEmail">Email</label>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="input-data">
+                            <input type="text" required name="ClienteEndereco" />
+                            <label for="ClienteEndereco">Endereço</label>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="input-data">
+                            <input type="text" required name="usuario" />
+                            <label for="usuario">Usuário</label>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="input-data">
+                            <input type="password" required name="senha" />
+                            <label for="senha">Senha</label>
+                        </div>
+                        <br />
+                        <br />
+                        <div>
+                            <input type="submit" value="Cadastrar" class="btn btn-cadastrar"/>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>  
+        @ViewBag.msg
+    }
+</section>
+
+

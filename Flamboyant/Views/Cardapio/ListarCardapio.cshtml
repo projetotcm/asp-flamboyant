@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Flamboyant.Models.ModelCardapio>
+@{
+    ViewBag.Title = "Listagem do Cardápio";
+}
+
+<h2 class="text-center">Lista de Produtos</h2>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CardapioId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeCardapio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DesCardapio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VlCardapio)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CardapioId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeCardapio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DesCardapio)
+            </td>
+            <th>
+                @Html.DisplayFor(modelItem => item.VlCardapio)
+            </th>
+            <td>
+                @Html.ActionLink("Novo", "CadCardapio", "Cardapio", null, new { @class = "btn btn-outline-success" })
+                @Html.ActionLink("Atualizar", "editarCardapio", new { id = item.CardapioId }, new { @class = "btn btn-outline-info" })
+                @Html.ActionLink("Excluir", "excluirCardapio", new { id = item.CardapioId }, new { @class = "btn btn-outline-danger", onclick = "return confirm('Deseja realmente excluir o produto?');" })
+            </td>
+        </tr>
+    }
+
+</table>
+<br />
+<div class="text-center">
+    @Html.ActionLink("Administração", "Administrador", "Home", null, new { @class = "btn btn-danger " })
+</div>
+
+

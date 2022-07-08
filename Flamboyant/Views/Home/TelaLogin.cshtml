@@ -1,0 +1,166 @@
+﻿@model Flamboyant.Models.ModelLogin
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@ViewBag.confCadastro
+<style>
+
+
+    .btn-voltar {
+        background: linear-gradient(270deg, #CC8A87 -8.7%, #B14D4A 9.64%, #98140F 58.72%);
+        border-radius: 42px;
+        border: none;
+        padding: 0px 20px;
+        font-family: Poppins;
+        color: #FFF;
+    }
+
+    .btn-voltar:hover {
+        background: linear-gradient(90deg, #CC8A87 -8.7%, #B14D4A 9.64%, #98140F 58.72%);
+        border-radius: 42px;
+        color: #FFF;
+    }
+
+    .btn-entrar {
+        background: linear-gradient(270deg, #478F4D -8.7%, #2A672F 9.64%, #183B1B 58.72%);
+        border-radius: 42px;
+        border: none;
+        padding: 0px 20px;
+        font-family: Poppins;
+        color: #FFF;
+    }
+
+    .btn-entrar:hover {
+        background: linear-gradient(90deg, #478F4D -8.7%, #2A672F 9.64%, #183B1B 58.72%);
+        border: 1px solid #000000;
+        border-radius: 42px;
+    }
+
+
+
+    .left-login-image {
+        width: 100%;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+
+    .main-login {
+        width: 100%;
+        height: 850px;
+        background: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-login {
+        width: 50%;
+        height: 200%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .right-login {
+        width: 50%;
+        height: 200%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-login {
+        width: 60%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background: #FFF;
+        border-radius: 25px;
+    }
+
+
+    .card-login .input-data {
+        height: 40px;
+        width: 100%;
+        position: relative;
+    }
+
+    .card-login .input-data input {
+        height: 100%;
+        width: 100%;
+        border: none;
+        font-size: 17px;
+        background: none;
+        color: #000;
+        border-bottom: 2px solid transparent;
+        border-image: linear-gradient(0.25turn,red, red, red, white);
+        border-image-slice: 1;
+    }
+
+    .input-data input:focus ~ label,
+    .input-data input:valid ~ label {
+        transform: translateY(-20px);
+        font-size: 15px;
+        color: #000;
+    }
+
+    .card-login .input-data label {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        color: #000;
+        pointer-events: none;
+        transition: all 0.3s ease;
+    }
+
+   
+
+   
+</style>
+
+@using (Html.BeginForm("TelaLogin", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+<div class="main-login">
+    <div class="right-login">
+        <div class="card-login">
+            <h2>Área da administração</h2>
+            <br />
+            <br />
+            <div class="input-data">
+                <input type="text" required name="usuario" />
+                <label for="usuario">Usuário</label>
+            </div>
+
+            <br />
+            <br />
+            <div class="input-data">
+                <input type="password" required name="senha" />
+                <label for="senha">Senha</label>
+            </div>
+            <br />
+            <br />
+            <div class="form-group ">
+                <button type="submit" value="Entrar" class="btn-entrar" style="padding: 8px; inline-size: max-content;">Entrar</button>
+                &nbsp;&nbsp;
+                @Html.ActionLink("Voltar", "LoginCliente", "Cliente", null, new { @class = " btn-voltar", @style = " padding: 8px;inline-size: max-content;" })
+            </div>
+        </div>
+    </div>
+</div>
+}
+
+@ViewBag.msgLogar

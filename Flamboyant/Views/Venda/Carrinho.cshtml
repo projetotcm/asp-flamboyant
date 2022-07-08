@@ -1,0 +1,49 @@
+﻿@model Flamboyant.Models.ModelVendas
+@{
+    ViewBag.Title = "Carrinho";
+}
+<style>
+    .teste {
+        margin-left: 35%;
+    }
+</style>
+
+
+<h2 class="text-center">🛒 Carrinho</h2>
+@if (Model.ItensPedido.Count == 0)
+{
+    <h1 class="text-center mt-5">
+        Nenhum item no carrinho.
+    </h1>
+}
+else
+{
+<br />
+    <div class="row">
+        <div class="col-3 fw-bold">Nome do Produto</div>
+        <div class="col-3 fw-bold">Quantidade</div>
+        <div class="col-3 fw-bold">Valor Unitário</div>
+        <div class="col-3 fw-bold">Valor Total</div>
+    </div>
+        foreach (var item in Model.ItensPedido)
+        {
+            <div class="my-2 row d-flex align-items-center">
+                <div class="col-3">@item.Produto</div>
+                <div class="col-3">
+                    <input type="number" value="@item.Qtd" />
+                </div>
+                <div class="col-3">@item.valorUnit</div>
+                <div class="col-2">@item.valorParcial</div>
+                <div class="col-1">@Html.ActionLink("Remover", "ExcluirItem", new { id = item.ItemPedidoID }, new { @class = "btn btn-outline-danger" })</div>
+            </div>
+            <hr />
+        }
+
+    <br />
+    <div class="justify-content-center d-flex">
+        <br />
+        @Html.ActionLink("Continuar Comprando", "Index", "Cardapio", null, new { @class = "btn btn-green", @style = "inline-size: max-content;" })
+        &nbsp; &nbsp;
+        @Html.ActionLink("Finalizar Compra", "CadPagamento", "Pagamento", null, new { @class = "btn btn-red" })
+    </div>
+}

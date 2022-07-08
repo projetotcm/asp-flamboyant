@@ -1,0 +1,166 @@
+﻿@model Flamboyant.Models.ModelCliente
+
+@{
+    ViewBag.Title = "Login Cliente";
+}
+
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+
+    .main-login {
+        width: 100%;
+        height: 850px;
+        background: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-login {
+        width: 50%;
+        height: 200%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .right-login {
+        width: 50%;
+        height: 200%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-login {
+        width: 60%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background: #FFF;
+        border-radius: 25px;
+    }
+
+    .left-login-image {
+        width: 100%;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-family: Courgette, cursive;
+        color: #fff;
+    }
+
+    .card-login .txt1 {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        color: #000;
+        margin-top: 0.62rem;
+        padding: 0 0.5rem;
+    }
+
+    .btn[type = "submit"] {
+        border: 0;
+        background: none;
+        text-align: center;
+        border: 2px solid red;
+        outline: none;
+        color: #000;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+        width: 150px;
+        height: 35px;
+        justify-items: center;
+        align-items: center;
+    }
+
+        .btn[type ="submit"]:hover {
+            background-image: linear-gradient(to right, red, red, red, white);
+        }
+
+    .card-login .input-data {
+        height: 40px;
+        width: 100%;
+        position: relative;
+    }
+
+        .card-login .input-data input {
+            height: 100%;
+            width: 100%;
+            border: none;
+            font-size: 17px;
+            background: none;
+            color: #000;
+            border-bottom: 2px solid transparent;
+            border-image: linear-gradient(0.25turn,red, red, red, white);
+            border-image-slice: 1;
+        }
+
+    .input-data input:focus ~ label,
+    .input-data input:valid ~ label {
+        transform: translateY(-20px);
+        font-size: 15px;
+        color: #000;
+    }
+
+    .card-login .input-data label {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        color: #000;
+        pointer-events: none;
+        transition: all 0.3s ease;
+    }
+</style>
+@using (Html.BeginForm("LoginCliente", "Cliente", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <br />
+    <div class="main-login">
+        <div class="left-login">
+            <img src="~/img/img login 2 2.png" class="left-login-image" alt="Prato">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h2>Login</h2>
+                <br />
+                <div class="input-data">
+                    <input type="text" required name="ClienteNome" />
+                    <label for="usuario">Usuário</label>
+
+                </div>
+
+                <br />
+                <div class="input-data">
+                    <input type="password" required name="senha" />
+                    <label for="senha">Senha</label>
+                </div>
+
+                <br />
+
+                <div class="form-group ">
+                    <input type="submit" className="btn" value="ENTRAR" class="btn btn-danger" />
+                </div>
+
+                <div>
+                    <a className="txt2"> @Html.ActionLink("Criar conta", "CadCliente", "Cliente")</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@ViewBag.msgLogar

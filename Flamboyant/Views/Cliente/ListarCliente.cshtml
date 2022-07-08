@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Flamboyant.Models.ModelCliente>
+@{
+    ViewBag.Title = "Lista de Clientes";
+}
+
+<h2 class="text-center">Lista de Clientes</h2>
+
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ClienteId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClienteNome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClienteTel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClienteCep)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClienteEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClienteEndereco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usuario)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.senha)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.ClienteId)
+    </td>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.ClienteNome)
+    </td>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.ClienteTel)
+    </td>
+
+    <th>
+        @Html.DisplayFor(modelItem => item.ClienteCep)
+    </th>
+
+    <th>
+        @Html.DisplayFor(modelItem => item.ClienteEmail)
+    </th>
+
+    <th>
+        @Html.DisplayFor(modelItem => item.ClienteEndereco)
+    </th>
+
+    <th>
+        @Html.DisplayFor(modelItem => item.usuario)
+    </th>
+
+    <th>
+        @Html.DisplayFor(modelItem => item.senha)
+    </th>
+
+    <td>
+        @Html.ActionLink("Atualizar", "editarCliente", new { id = item.ClienteId }, new { @class = "btn btn-outline-info" })
+        @Html.ActionLink("Excluir", "excluirCliente", new { id = item.ClienteId }, new { @class = "btn btn-outline-danger", onclick = "return confirm('Deseja realmente excluir?');" })
+    </td>
+</tr>
+    }
+
+</table>
+<br />
+<div class="text-center">
+    @Html.ActionLink("Administração", "Administrador", "Home", null, new { @class = "btn btn-danger " })
+</div>

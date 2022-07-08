@@ -1,0 +1,39 @@
+﻿
+
+@{
+    ViewBag.Title = "Administrador";
+}
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .cabeca {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+<h2> Área do Administrador</h2>
+<br />
+<br />
+<div class="cabeca">
+    <div class="card border-primary mb-3" style="max-width: 20rem;">
+        <div class="card-header">Gerenciador</div>
+        <div class="card-body">
+            <h4 class="card-title">@Html.ActionLink("Produtos", "ListarCardapio", "Cardapio")</h4>
+            <p class="card-text">Pode ser realizado o cadastro, alteração e exclusão dos produtos listados.</p>
+        </div>
+    </div>
+    <div class="card border-primary mb-3" style="max-width: 20rem;">
+        <div class="card-header">Gerenciador</div>
+        <div class="card-body">
+            <h4 class="card-title">@Html.ActionLink("Clientes", "ListarCliente", "Cliente")</h4>
+            <p class="card-text">Pode ser realizado a alteração e exclusão dos clientes listados.</p>
+        </div>
+    </div>
+</div>
+

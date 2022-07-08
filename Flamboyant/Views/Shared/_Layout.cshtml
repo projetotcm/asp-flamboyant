@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Flamboyant</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" href="~/Views/Shared/Home.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --linear-green: linear-gradient(to right, #183B1B,#2A672F, #478F4D);
+            --linear-red: linear-gradient(to right,#98140F, #BA615D, #CB8987 );
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        a:hover {
+            color: #2A672F;
+        }
+
+        .navbar-nav {
+            padding: 1em;
+        }
+
+        h2, p {
+            color: #000;
+        }
+
+        span {
+            font-family: Poppins, sans-serif;
+        }
+
+        .btn-green {
+            background: linear-gradient(270deg, #478F4D -8.7%, #2A672F 9.64%, #183B1B 58.72%);
+            border-radius: 42px;
+            width: 5em;
+            color: #FFF;
+            text-align: center;
+            border: none;
+        }
+
+        .btn-green:hover {
+            background: linear-gradient(90deg, #478F4D -8.7%, #2A672F 9.64%, #183B1B 58.72%);
+            border-radius: 42px;
+            color: #FFF;
+        }
+
+        .btn-red {
+            background: linear-gradient(270deg, #CC8A87 -8.7%, #B14D4A 9.64%, #98140F 58.72%);
+            border-radius: 42px;
+            outline: none;
+            color: #FFF;
+        }
+
+        button {
+            font-family: Poppins, sans-serif;
+            outline: none;
+            border: none;
+        }
+
+        .btn-red:hover {
+            background: linear-gradient(90deg, #CC8A87 -8.7%, #B14D4A 9.64%, #98140F 58.72%);
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fix navbar-dark bg-light">
+            <div class="container">
+                <a class="navbar-brand"><img src="~/img/flamboyantlogo.png" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <form class="d-flex" style="gap: 16px">
+                    &nbsp;&nbsp;
+                    @Html.ActionLink("Home", "Index", "Cardapio", null, new { @style = "text-decoration: none" })
+
+                    @if (Session["usuario"] == null)
+                    {
+                        @Html.ActionLink("Cadastrar-se", "CadCliente", "Cliente", null, new { @style = "text-decoration: none; " })
+                        @Html.ActionLink("Login", "LoginCliente", "Cliente", null, new { @class = "btn-green" })
+                    }
+                    @if (Session["usuario"] != null)
+                    {
+                        @Html.ActionLink("🛒", "Carrinho", "Venda", null, new { @class = "btn-teste" })
+
+                        @Html.ActionLink("Sair", "logout", "Home", null, new { @class = "btn-teste" })
+                    }
+                </form>
+            </div>
+        </nav>
+        <br />
+    </header>
+    <div class="container body-content">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <br />
+    @*<div class="container text-muted">
+        <footer class="bg-light" style=" bottom:0; width:100%; line-height:50px;">
+            &copy; @DateTime.Now.Year - Direitos autorais- Flamboyant. Todos os direitos reservados. Termos de uso | Aviso de privacidade externo | Cookies - Flamboyant <a asp-area="" asp-controller="Home" asp-action="Privacy"></a>
+        </div>
+    </footer>*@
+</body>
+</html>

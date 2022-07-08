@@ -1,0 +1,103 @@
+﻿@model Flamboyant.Models.ModelCardapio
+@{
+    ViewBag.Title = "CadCardapio";
+}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+
+    .card-login .input-data {
+        height: 40px;
+        width: 100%;
+        position: relative;
+    }
+
+        .card-login .input-data input {
+            height: 100%;
+            width: 100%;
+            border: none;
+            font-size: 17px;
+            background: none;
+            color: #000;
+            border-bottom: 2px solid transparent;
+            border-image: linear-gradient(0.25turn,red, red, red, white);
+            border-image-slice: 1;
+        }
+
+    .input-data input:focus ~ label,
+    .input-data input:valid ~ label {
+        transform: translateY(-20px);
+        font-size: 15px;
+        color: #000;
+    }
+
+    .card-login .input-data label {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        color: #000;
+        pointer-events: none;
+        transition: all 0.3s ease;
+    }
+
+</style>
+<h2 style="text-align:center;">Cadastrar Produto</h2>
+<br/>
+
+<div class="tudo">
+    <div class="forms">
+
+        @using (Html.BeginForm("CadCardapio", "Cardapio", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <br />
+            <div class="main-login">
+                <div class="right-login">
+                    <div class="card-login">
+                        <br />
+                        <div class="input-data">
+                            <input type="text" required name="NomeCardapio" />
+                            <label for="NomeCardapio">Nome Cardápio</label>
+
+                        </div>
+
+                        <br />
+                        <div class="input-data">
+                            <input type="text" required name="DesCardapio" />
+                            <label for="DesCardapio">Descrição Cardápio</label>
+                        </div>
+
+                        <br />
+                        <div class="input-data">
+                            <input type="text" required name="VlCardapio" />
+                            <label for="VlCardapio">Valor do Produto</label>
+                        </div>
+
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="form-group center">
+                <div>
+                    <label class="control-label col-md-2" for="file">Foto</label>
+                </div>
+                <div class="col-md-10">
+                    <br />
+                    <input type="file" name="file" id="file" /> <br />
+                </div>
+            </div>
+            <br />
+            <br />
+            <div>
+                <input type="submit" value="Cadastrar" class="btn-green" style=" padding: 8px; inline-size: max-content;" />
+                &nbsp;&nbsp;
+                @Html.ActionLink("Voltar", "ListarCardapio", "Cardapio", null, new { @class = "btn-red", @style = " padding: 8px; inline-size: max-content;" })
+            </div>
+            <br />
+        }
+    </div>
+</div>

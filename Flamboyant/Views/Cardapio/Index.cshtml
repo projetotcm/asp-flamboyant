@@ -1,0 +1,130 @@
+﻿@model IEnumerable<Flamboyant.Models.ModelCardapio>
+
+@{
+    ViewBag.Title = "Menu Cardapio";
+}
+@*lepo lepooo*@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300&display=swap" rel="stylesheet">
+<style>
+    :root {
+        --linear-green: linear-gradient(to right, #183B1B,#2A672F, #478F4D);
+        --linear-red: linear-gradient(to right,#98140F, #BA615D, #CB8987 );
+    }
+
+    h1, p {
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        color: #000;
+    }
+
+    #inicio {
+        padding-bottom: 20em;
+    }
+
+    #btn-inicio {
+        background: #98140F;
+        border: 2px solid #98140F;
+        border-radius: 25px;
+        box-shadow: 0px 4px 13px #232323;
+        color: #FFF;
+        outline: none;
+        font-family: Poppins;
+        padding: 10px;
+    }
+
+    button, .card {
+        font-family: Hepta Slab, serif;
+    }
+
+    #p-inicio {
+        width: 506px;
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 100%;
+        max-height: 300px;
+    }
+
+    .btn-compra {
+        background: var(--linear-red);
+        border-radius: 25px;
+    }
+
+        .btn-compra:hover {
+            background: var(--linear-green);
+            transition: .2s ease-in;
+        }
+
+    .card:hover {
+        background-color: lightgrey;
+    }
+</style>
+<section id="inicio">
+    <div style="float: left">
+
+        <h2 style="font-size:2.6rem;font-weight:bold;">Flamboyant</h2>
+        <br />
+        <p id="p-inicio">Restaurante vegano, pensado para pessoas adeptas do veganismo. Aqui você encontra comida de qualidade, com muito sabor, por um valor super acessível!</p>
+        <br />
+        <a href="@Url.Action("CadCliente", "Cliente")">
+            <button id="btn-inicio">
+                Pedir agora!
+            </button>
+
+        </a>
+        <br />
+        <br />
+    </div>
+
+    <div style="float: right;">
+        <img src="~/img/imagem.png" style="max-width:600px;" />
+    </div>
+</section>
+
+<h2 style="text-align:center;">Pratos</h2>
+<br />
+<div class="">
+    <div class="row center">
+        <div class="col-sm-12">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-3 col-md-1">
+                        <div class="card h-100" style="align-items:center; justify-content: center;">
+                            <a href="/Cardapio/Detalhes/@item.CardapioId">
+                                @if (@item.FotoCardapio != null)
+                                {<img class="card-img-center flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" src="@item.FotoCardapio" data-holder-rendered="true">}
+                                else
+                                {<img class="card-img-center flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" src="~/img/image-not-found.jpg" data-holder-rendered="true">}
+                            </a>
+                            <div class="card-body" style="text-align-last: center;">
+                                <h4 class="card-title">
+                                    <a href="@item.FotoCardapio">@item.NomeCardapio</a>
+                                </h4>
+                                <h5>R$ @item.VlCardapio</h5>
+                            </div>
+                            <div class="card-footer space-between-flex" style="width:90%">
+                                <div>
+                                    <p style="text-align: -webkit-center;">@item.DesCardapio</p>
+                                </div>
+                                <div>
+                                    <br />
+                                    @using (Html.BeginForm("AdicionarCarrinho", "Venda", FormMethod.Post))
+                                    {
+                                        <input type="hidden" name="id" value=@item.CardapioId>
+                                        <input type="hidden" name="pre" value=@item.VlCardapio>
+                                        <input type="hidden" name="quantidade" value="1">
+                                        <button type="submit" class="btn btn-compra" style="right: unset; inline-size: -webkit-fill-available; ">Comprar</button>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
